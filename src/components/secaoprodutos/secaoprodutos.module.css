@@ -1,0 +1,33 @@
+.section {
+    margin-top: 200px;
+    text-align: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+.linh {
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    gap: 20px;
+}
+
+.cardprod{
+    border-radius: 20px;
+}
+
+.imgprod {
+    width: 350px;
+    height: 350px;
+}
+
+.preco {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.legenda {
+    margin-top: 20px;
+}
