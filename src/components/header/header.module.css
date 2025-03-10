@@ -19,7 +19,7 @@
 
 
 .header {
-    gap: 50%;
+    
     padding-inline: 20px;
     display: flex;
     flex-direction: row;

@@ -11,48 +11,54 @@ export default function secaoprodutos(){
         <div className={style.linh}>
 
                 <div className={style.cardprod}>
-                        <h2> Tenis Top </h2>
+                        
+                        <h2>  AIR MAX TN TOXIC </h2>
 
-                        <img className={style.imgprod} src="tenis.jpg"/>
-
-
-                        <p className={style.preco}> R$ 72,00 </p>
-                
+                        <p className={style.preco}> R$ 1072,00 </p>
+                       
+                        <button className={style.orgcard}> Comprar</button>
+                       
                 </div>
 
-                <div className={style.cardprod}>
+                <div className={style.cardprod2}>
                          
-                        <h2> Tenis Top </h2>
+                        <h2> AIR MAX TN FLOUR</h2>
+                    
+                       
 
-                        <img className={style.imgprod} src=" tenis.jpg"/>
 
+                        <p className={style.preco}> R$ 2072,00 </p>
 
-                        <p> R$ 72,00 </p>
+                        <button  className={style.orgcard}> Comprar</button>
                 </div>
+           
            
 
         </div>
 
                 <div className={style.linh}>
 
-        <div className={style.cardprod}>
-                <h2> Tenis Top </h2>
+        <div className={style.cardprod3}>
+                <h2>  AIR MAX TN OFF WHITE </h2>
 
-                <img className={style.imgprod} src="tenis.jpg"/>
+              
 
 
-                <p className={style.preco}> R$ 72,00 </p>
+                <p className={style.preco}> R$ 1072,00 </p>
 
+                <button  className={style.orgcard}> Comprar</button>
         </div>
 
-        <div className={style.cardprod}>
+        <div className={style.cardprod4}>
                 
-                <h2> Tenis Top </h2>
+                <h2>  AIR MAX TN ICED </h2>
 
-                <img className={style.imgprod} src=" tenis.jpg"/>
+                
 
 
-                <p> R$ 72,00 </p>
+                <p className={style.preco}> R$ 2072,00 </p>
+
+                <button  className={style.orgcard}> Comprar</button>
         </div>
 
 

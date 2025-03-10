@@ -1,3 +1,4 @@
+
 .section {
     margin-top: 200px;
     text-align: center;
@@ -14,20 +15,70 @@
     gap: 20px;
 }
 
-.cardprod{
-    border-radius: 20px;
-}
 
-.imgprod {
+
+.cardprod{
+    background-image: url("../../../public/niketoxic.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
     width: 350px;
     height: 350px;
+}
+
+.cardprod2{
+    background-image: url("../../../public/Tenis.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+}
+
+.cardprod3{
+    background-image: url("../../../public/offwhite.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+}
+
+.cardprod4{
+    background-image: url("../../../public/tniced.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+}
+
+.orgcard {
+    display: block;
+    margin-inline: auto;
+    margin-top: 65%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 5px;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.cardprod p {
+    padding-top: auto;
+    padding-bottom: 20px;
 }
 
 .preco {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
+    padding-bottom: 0px;
 }
 
 .legenda {
     margin-top: 20px;
 }
+
